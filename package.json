@@ -1,0 +1,25 @@
+{
+  "name": "string-to-sentences",
+  "version": "1.0.0",
+  "description": "Extract sentences from string",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "babel src --presets babel-preset-env --out-dir dist",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ekeuus/string-to-sentences.git"
+  },
+  "author": "Ekke Uustalu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ekeuus/string-to-sentences/issues"
+  },
+  "homepage": "https://github.com/ekeuus/string-to-sentences#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
