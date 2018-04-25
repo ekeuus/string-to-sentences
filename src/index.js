@@ -9,7 +9,7 @@ function getSentences(string, options = { removePunctuation: false }) {
 	if (typeof string === 'string' || string instanceof String) {
 		const { removePunctuation } = options;
 		const result = string.match(regex);
-		if (!result.length) {
+		if (!result || !result.length) {
 			const initial = removePunctuation ?
 				removePunctuationFromText(string) :
 				string;
