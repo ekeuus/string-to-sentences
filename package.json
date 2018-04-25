@@ -1,6 +1,6 @@
 {
   "name": "string-to-sentences",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Extract sentences from string",
   "main": "./dist/index.js",
   "scripts": {
